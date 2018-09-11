@@ -15,7 +15,8 @@ function shuffle(array) {
 
 const createCell = (value) => ({
   value,
-  isRevealed: false
+  isRevealed: false,
+  noValue: null
 })
 
 const createBoard = (size) => {
